@@ -1,0 +1,47 @@
+{
+  "name": "overture-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^30.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^30.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^30.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^25.4.4",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^25.4.4",
+    "@ckeditor/ckeditor5-export-pdf": "^30.0.0",
+    "@ckeditor/ckeditor5-font": "^30.0.0",
+    "@ckeditor/ckeditor5-highlight": "^30.0.0",
+    "@ckeditor/ckeditor5-html-embed": "^30.0.0",
+    "@ckeditor/ckeditor5-image": "^30.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^30.0.0",
+    "@ckeditor/ckeditor5-ui": "^30.0.0",
+    "@mdi/font": "7.0.96",
+    "axios": "^1.2.1",
+    "ckeditor5": "^35.4.0",
+    "core-js": "^3.8.3",
+    "dotenv-webpack": "^8.0.1",
+    "moment": "^2.29.4",
+    "register-service-worker": "^1.7.2",
+    "roboto-fontface": "*",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.0",
+    "vue-signature-pad": "^3.0.2",
+    "vuetify": "^3.0.0",
+    "vuex": "^4.1.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "sass": "^1.55.0",
+    "vite": "^3.1.9",
+    "vite-plugin-vuetify": "^1.0.1"
+  }
+}
